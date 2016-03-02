@@ -7,6 +7,9 @@ email : ranihaileydesai@gmail.com
 
 
 <!-- this page enables the user to edit his profile -->
+<style>
+    {% include "Assets/css/body.css" %}
+</style>
 
 <html>
     <head>
@@ -17,7 +20,7 @@ email : ranihaileydesai@gmail.com
         <br><br><br><br><br><br>
         
         
-        <div style="width:800px; height:550px; margin:0 auto; background-color:#0d8b97;">
+        <div class="edit-profile-main">
         <br>
         <center><b><h3><font color="white">Edit Profile</font></h3></b></center>
         <br>
@@ -61,7 +64,7 @@ email : ranihaileydesai@gmail.com
             <div class="col-md-3">
                 <figure>
                     <img src={{pcuser.image}} class="img-responsive" style="width:350px; height:180px; border:2px solid #2c0f00;">
-                    <figcaption style="background-color: #2c0f00; padding-top:1px; padding-bottom:1px;"><center><font color="#e2d7bb"><b><h4>User {{pcuser.user}}</h4></b></font></center></figcaption>
+                    <figcaption class="edit-profile-picture"><center><font color="#e2d7bb"><b><h4>User {{pcuser.user}}</h4></b></font></center></figcaption>
                 </figure>
             </div>
             

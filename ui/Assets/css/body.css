@@ -1,0 +1,88 @@
+.password{
+	width:600px;
+	height:300px;
+	margin:0 auto;
+	background-color:#0d8b97;
+}
+
+.dashboard-malaria{
+	width:600px;
+	height:300px;
+	margin:0 auto;
+	background-color:#0d8b97;
+}
+
+.dashboard-malaria-picture{
+	width:240px;
+	height:200px;
+	padding-bottom:5px;
+	padding-top:10px;
+}
+
+.dashboard-peacetrack{
+	width:600px;
+	height:300px;
+	margin:0 auto;
+	background-color:#0d8b97;
+}
+
+.dashboard-peacetrack-picture{
+	width:240px;
+	height:200px;
+	padding-bottom:5px;
+	padding-top:10px;
+}
+
+.edit-profile-main{
+	width:800px;
+	height:550px;
+	margin:0 auto;
+	background-color:#0d8b97;
+}
+
+.edit-profile-picture{
+	background-color: #2c0f00;
+	padding-top:1px;
+	padding-bottom:1px;
+}
+
+.forgot_password-main{
+	width:600px;
+	height:350px;
+	margin:0 auto;
+	background-color:#0d8b97;
+}
+
+.index-main{
+	width:600px;
+	height:400px;
+	margin:0 auto;
+	background-color:#0d8b97;
+}
+
+.profile-main{
+	width:600px;
+	height:400px;
+	margin:0 auto;
+	background-color:#0d8b97;
+}
+
+.profile-user{
+	background-color: #2c0f00;
+	padding-top:1px;
+	padding-bottom:1px;
+}
+
+.reset-password-main{
+	width:600px;
+	height:320px;
+	margin:0 auto;
+	background-color:#0d8b97;
+}
+
+.signup-main{
+	width:600px;
+	height:900px;
+	margin:0 auto;
+	background-color:#0d8b97;
+}

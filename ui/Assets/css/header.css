@@ -1,0 +1,28 @@
+/*Styling for header.html*/
+.main-header {
+	background-color:#e2d7bb;
+	height:100px;
+}
+
+.logo-image{
+	width:180px;
+	height:90px;
+	padding-bottom:5px;
+	padding-top:10px;
+}
+
+.header-right{
+	float:right;
+	padding-top:10px;
+	margin-right:-500px;
+}
+
+.text-right{
+	border:2px solid;
+	padding:5px;
+}
+
+.logout{
+	border:2px solid;
+	padding:5px;
+}
