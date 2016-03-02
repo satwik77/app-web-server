@@ -15,7 +15,7 @@ class Post(models.Model):
     description_post = models.TextField(max_length=20000,
                                         validators=[
                                             RegexValidator(
-                                                r'^[(A-Z)|(a-z)|(0-9)|(\n)|(\s)|(\.)|(,)|(\-)|(_)|(!)|(:)|(%)]+$'
+                                                r'^[(A-Z)|(a-z)|(0-9)|(\n)|(\s)|(\.)|(,)|(\-)|(_)|(!)|(:)|(%)|(\')]+$'
                                             )]
                                         )
     # link to important documents
@@ -56,6 +56,7 @@ class RevPost(models.Model):
     title_change = models.BooleanField(default=False)
     # change in description
     description_change = models.BooleanField(default=False)
+
 
     def __unicode__(self):
         return self.owner_rev.user.username
